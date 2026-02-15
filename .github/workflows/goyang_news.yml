@@ -2,7 +2,7 @@ name: 고양시 조기폐차 모니터링
 
 on:
   schedule:
-    - cron: "*/15 * * * *"  # 15분마다 실행
+    - cron: "0 8 * * *"  # 매일 8시마다 실행
   workflow_dispatch:
 
 jobs:
